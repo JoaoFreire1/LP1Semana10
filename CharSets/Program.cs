@@ -6,13 +6,32 @@ namespace CharSets
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
-            string s;
-            using StreamReader sr = new StreamReader("file1.txt");
-            while ((sm= sr.ReadLine()) != null)
+            try
             {
-                Console.WriteLine(s);
-            }
+                List<char> allChars = new List<char>();
+
+                foreach (string filePath in args)
+                {
+
+                    if (!File.Exists(filePath))
+                    {
+                        Console.Error.WriteLine($"Erro: Ficheiro não encontrado: {filePath}");
+                        return;
+                    }
+
+                    var lines = File.ReadAllLines(filePath);
+
+                    foreach (string line in lines)
+                    {
+                        if (line.Length != 1)
+                        {
+                            Console.Error.WriteLine($"Erro: Linha inválida no ficheiro '{filePath}': \"{line}\"");
+                            return;
+                        }
+
+                        allChars.Add(line[0]);
+                    }
+                }
         }
     }
 }

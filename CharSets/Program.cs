@@ -32,6 +32,22 @@ namespace CharSets
                         allChars.Add(line[0]);
                     }
                 }
+
+                List<char> uniqueChars = new List<char>();
+                foreach (char c in allChars)
+                {
+                    if (!uniqueChars.Contains(c))
+                    {
+                        uniqueChars.Add(c);
+                    }
+                }
+
+                uniqueChars.Sort();
+
+                foreach (char c in uniqueChars)
+                {
+                    Console.WriteLine(c);
+                }
         }
     }
 }

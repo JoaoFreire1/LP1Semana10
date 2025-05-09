@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePower", "FilePower\File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePower2", "FilePower2\FilePower2.csproj", "{72ADC486-A23D-443D-80D7-D2D18EF2682F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntCollections", "IntCollections\IntCollections.csproj", "{88EB3342-16F7-412F-BD19-4AE062AC0443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x64.Build.0 = Release|Any CPU
 		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x86.ActiveCfg = Release|Any CPU
 		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x86.Build.0 = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|x64.Build.0 = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Debug|x86.Build.0 = Debug|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|x64.ActiveCfg = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|x64.Build.0 = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|x86.ActiveCfg = Release|Any CPU
+		{88EB3342-16F7-412F-BD19-4AE062AC0443}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

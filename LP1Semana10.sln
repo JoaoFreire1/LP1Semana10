@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualPlayer", "EqualPlayer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePower", "FilePower\FilePower.csproj", "{594A0B9F-4A9B-4B95-8470-8D564F891109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePower2", "FilePower2\FilePower2.csproj", "{72ADC486-A23D-443D-80D7-D2D18EF2682F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{594A0B9F-4A9B-4B95-8470-8D564F891109}.Release|x64.Build.0 = Release|Any CPU
 		{594A0B9F-4A9B-4B95-8470-8D564F891109}.Release|x86.ActiveCfg = Release|Any CPU
 		{594A0B9F-4A9B-4B95-8470-8D564F891109}.Release|x86.Build.0 = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|x64.Build.0 = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Debug|x86.Build.0 = Debug|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x64.ActiveCfg = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x64.Build.0 = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x86.ActiveCfg = Release|Any CPU
+		{72ADC486-A23D-443D-80D7-D2D18EF2682F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

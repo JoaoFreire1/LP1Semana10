@@ -1,9 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 
-namespace CharSets
+namespace SpeedType
 {
+    /// <summary>
+    /// The Program class contains the entry point for the application.
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Entry point of the application.
+        /// It initializes the game and displays the main menu to the player.
+        /// </summary>
+        /// <param name="args">Command line arguments.</param>
         private static void Main(string[] args)
         {
             try
@@ -33,6 +43,7 @@ namespace CharSets
                     }
                 }
 
+                // Remove duplicados manualmente
                 List<char> uniqueChars = new List<char>();
                 foreach (char c in allChars)
                 {
@@ -48,6 +59,17 @@ namespace CharSets
                 {
                     Console.WriteLine(c);
                 }
+
+                return;
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Erro inesperado: {ex.Message}");
+                return;
+            }
+
+
         }
     }
 }
+
